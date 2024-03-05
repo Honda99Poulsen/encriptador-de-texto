@@ -1,0 +1,64 @@
+body{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    width: 120px;
+    padding: 40px 0 40px 40px;
+}
+
+#texto{
+    border: none;
+    font-size: 32px;
+    background-color: #F3F5FC;
+    margin: 38px 0 0 240px;
+}
+
+.caja{
+    display: inline-block;
+    width: 60%;
+}
+
+.botones{
+    width: 680px;
+    margin: 0 auto;
+    padding: 837px 0 0 0;
+}
+
+.boton{
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #0A3871;
+    font-size: 16px;
+    
+    color: #fff;
+}
+
+.mensajeFinal{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFF;
+    height: 944px;
+    width: 400px;
+    border-radius: 32px;
+}
+
+.mensajeFinal h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mensajeFinal p{
+    font-size: 16px;
+}
+
+.mensajeFinal img{
+    width: 336px;
+    padding: 243px 0 10px 0;
+}
