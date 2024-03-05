@@ -30,7 +30,12 @@ function encriptarTexto(){
         
     }
     
-    let salida = document.getElementById('salidaDatos'). value = textoFinal;
+    let salida = document.getElementById('salidaDatos');
+    salida.innerHTML = textoFinal;
+
+    let salidaP = document.getElementById('salidaDatosP');
+    salidaP.innerHTML = '';
+
 }
 
 
