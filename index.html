@@ -12,22 +12,27 @@
     <title>Encriptador de texto</title>
 </head>
 <body>
-    <header>
-        
-    </header>
     <main> 
         <h1><img src="imagenes/Logo.png" alt="logo de alura"></h1>
-        <section class="caja">
-            <input id="texto" type="text" placeholder="Ingrese el texto aqui">
-            <div class="botones">
-                <input class="boton" onclick="encriptarTexto();" type="submit" value="Encriptar">
-                <input class="boton" type="submit" value="Desencriptar">
-            </div>
-        </section>
+        <div class="caja">
+            <input id="texto" type="text" value="Ingrese el texto aqui">
+            <section class="botones">
+                <img src="imagenes/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
+                <p>Solo letras minusculas y sin acentos</p>
+                <div style="display: block;">
+                    <input class="botonEncriptar boton" onclick="encriptarTexto();" type="submit" value="Encriptar">
+                    <input class="botonDesencriptar boton" type="submit" value="Desencriptar">
+                </div>
+            </section>
+        </div>
         <div class="mensajeFinal">
-            <img src="imagenes/Muñeco.png" alt="mu;eco con lupa">
-            <h2 id="salidaDatos">Ningun mensaje fue encontrado</h2>
-            <p id="salidaDatosP">Ingrese el texto que desees encriptar o desencriptar</p>
+            <div>
+                <img src="imagenes/Muñeco.png" alt="mu;eco con lupa">
+            </div>
+            <section id="caja-final">
+                <h2 id="salidaDatos">Ningun mensaje fue encontrado</h2>
+                <p id="salidaDatosP">Ingrese el texto que desees encriptar o desencriptar.</p>
+            </section>
         </div>
     </main>
     <footer>
