@@ -1,42 +1,65 @@
 body{
-    width: 1440px;
-    margin: 0 auto;
     background-color: #F3F5FC;
+}
+
+main{
     font-family: "Inter", sans-serif;
 }
 
 h1{
-    width: 120px;
-    padding: 40px 0 40px 40px;
-}
-
-#texto{
-    border: none;
-    font-size: 32px;
-    background-color: #F3F5FC;
-    margin: 38px 0 0 240px;
+    display: inline-block;
+    padding: 40px 0 0 40px; 
+    vertical-align: top;
 }
 
 .caja{
     display: inline-block;
-    width: 60%;
+    width: 50%;
+}
+
+#texto{
+   font-size: 32px;
+   font-weight: 400;
+   border: none;
+   margin: 168px 0 0 80px;
+   background-color: #F3F5FC;
+   color: #0A3871;
+
 }
 
 .botones{
-    width: 680px;
-    margin: 0 auto;
-    padding: 837px 0 0 0;
+    display: inline-block;
+    margin: 669px 0 0 0;
+}
+
+.botones img{
+    width: 16px;
+}
+
+.botones p{
+    display: inline-block;
+    font-size: 12px;
+    color: #495057;
+    padding: 0 0 16px 0;
+}
+
+.botonEncriptar{
+    border: 1px solid #0A3871;
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.botonDesencriptar{
+    border: 1px solid #0A3871;
+    background-color: #d8dfe8;
+    color: #0A3871;
 }
 
 .boton{
-    width: 328px;
-    height: 67px;
-    border: 1px solid #0A3871;
     border-radius: 24px;
-    background-color: #0A3871;
     font-size: 16px;
-    
-    color: #fff;
+    padding: 24px 0;
+    width: 250px;
 }
 
 .mensajeFinal{
@@ -44,11 +67,28 @@ h1{
     vertical-align: top;
     background-color: #FFF;
     height: 944px;
-    width: 400px;
     border-radius: 32px;
+    width: 400px;
+    margin: 40px 0 40px 0;
+}
+
+.mensajeFinal div{
+    width: 336px;
+    margin: 0 auto;
+}
+
+#caja-final {
+    width: 336px;
+    margin: 0 auto;
+}
+
+.mensajeFinal img{
+    margin-top: 243px;
+    width: 336px;
 }
 
 .mensajeFinal h2{
+    padding: 32px 0 16px 0;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -56,9 +96,7 @@ h1{
 
 .mensajeFinal p{
     font-size: 16px;
+    text-align: center;
 }
 
-.mensajeFinal img{
-    width: 336px;
-    padding: 243px 0 10px 0;
-}
+
