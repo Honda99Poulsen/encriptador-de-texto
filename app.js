@@ -30,17 +30,18 @@ function encriptarTexto(){
         
     }
     
-    let salida = document.getElementById('salidaDatos');
-    salida.innerHTML = textoFinal;
+    modificarHTML('salidaDatos', textoFinal);
 
-    let salidaP = document.getElementById('salidaDatosP');
-    salidaP.innerHTML = '';
+    modificarHTML('salidaDatosP', '');
+
+    textoFinal = '';
 
 }
 
-
-
-
+function modificarHTML(id, text){
+    let salida = document.getElementById(id);
+    salida.innerHTML = text;
+}
 
 
 function desencriptarTexto(){
