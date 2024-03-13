@@ -2,9 +2,10 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,13 +14,15 @@
 </head>
 <body>
     <main> 
-        <h1><img src="imagenes/Logo.png" alt="logo de alura"></h1>
+        <h1 class="titulo">
+            <img src="imagenes/Logo.png" alt="logo de alura">
+        </h1>
         <div class="caja">
             <textarea id="texto" cols="27" rows="10" placeholder="Ingrese el texto aquí" ></textarea>
             <section class="botones">
-                <img src="imagenes/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
-                <p>Solo letras minusculas y sin acentos</p>
-                <div style="display: block;">
+                <div>
+                    <img src="imagenes/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
+                    <p>Solo letras minusculas y sin acentos</p>
                     <input class="botonEncriptar boton" onclick="encriptarTexto();" type="submit" value="Encriptar">
                     <input class="botonDesencriptar boton" onclick="desencriptarTexto();" type="submit" value="Desencriptar">
                 </div>
