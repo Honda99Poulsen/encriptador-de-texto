@@ -40,6 +40,10 @@ h1{
     margin: 301.5px 0 0 0;
 }
 
+.botones section{
+    display: block;
+}
+
 .botones img{
     width: 16px;
 }
@@ -106,6 +110,7 @@ h1{
 #mensajeFinal p{
     font-size: 16px;
     text-align: center;
+    padding-bottom: 32px;
 }
 
 #copiar{
@@ -125,6 +130,13 @@ h1{
 footer{
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .titulo{
+        
+    }
+}
+
 
 @media screen and (max-width: 480px){
     .titulo{
@@ -156,13 +168,46 @@ footer{
     }
 
     .botones div{
-        width: 323px;
+        width: 87.2%;
         margin: 0 auto;
     }
 
     .boton{
         width: 343px;
         margin-bottom: 24px;
+    }
+
+    #mensajeFinal{
+        display: inline-block;
+        width: 86%;
+        height: auto;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .lupin{
+        display: none;
+    }
+
+    #caja-final{
+        height: 66%;
+        width: 263px;
+        margin: 0;
+    }
+
+
+    div #caja-final{
+        width: 263px;
+    }
+
+    .ultimoBoton{
+        margin: 0 auto;
+    }
+
+    #copiar{
+        margin-top: 5% ;
+        position: relative;
+        margin-left: 13%;
     }
 }
 
