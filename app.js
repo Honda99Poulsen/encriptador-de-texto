@@ -58,6 +58,8 @@ function modificarCSS(id, caracteristica, descripcion){
 }
 
 function copiarTexto(){
+    let texto = document.getElementById('salidaDatos').textContent;
+
     navigator.clipboard.writeText(texto);
 }
 
