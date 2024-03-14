@@ -26,6 +26,10 @@ h1{
     color: #0A3871;
 }
 
+textarea{
+    font-family: 'Inter';
+}
+
 #texto{
    font-size: 32px;
    font-weight: 400;
@@ -166,18 +170,18 @@ footer{
     }
 
     #dosBotones{
-        width: 89.58%;
+        width: 100%;
         margin: 0 auto;
-    }
-
-    #dosBotones section{
-        margin-left: 10.2%;
     }
 
     .dosBotones-hijo{
         display: block;
-        width: max-content;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .boton{
+        width: 48%;
     }
 
     .lupin{
@@ -221,8 +225,9 @@ footer{
 
 
 @media screen and (max-width: 480px){
+    
     .titulo{
-        padding: 24px 0 24px 16px;
+        padding: 24px 0 24p x 16px;
     }
     
     .titulo img{
@@ -252,6 +257,10 @@ footer{
     .botones div{
         width: 87.2%;
         margin: 0 auto;
+    }
+
+    #dosBotones section{
+        margin-left: 8%;
     }
 
     .boton{
