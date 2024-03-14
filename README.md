@@ -9,7 +9,7 @@
 - JavaScript
 
 ## Vista Previa
-![Vista previa del encriptador de texto](imagenes/Vista Previa)
+![Vista previa del encriptador de texto](imagenes/Vista Previa.png)
 
 ## Características
 - Encripta texto sustituyendo vocales por palabras clave.
