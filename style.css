@@ -9,13 +9,13 @@ main{
 
 h1{
     display: inline-block;
-    padding: 40px 0 0 40px; 
+    padding: 40px 0 0 2.77%; 
     vertical-align: top;
 }
 
 .caja{
     display: inline-block;
-    width: 50%;
+    width: 58.33%;
 }
 
 .caja textarea:focus{
@@ -80,7 +80,7 @@ h1{
     background-color: #FFF;
     height: 944px;
     border-radius: 32px;
-    width: 400px;
+    width: 27.77%;
     margin: 40px 0 40px 0;
     position: relative;
 }
@@ -91,7 +91,7 @@ h1{
 }
 
 #caja-final {
-    width: 336px;
+    width: 81.25%;
     margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ h1{
     width: 250px;   
     color: #0A3871;
     border: 1px solid #0A3871;
-    margin-left: 75px;
+    margin-left: 11%;
     background-color: #FFF;
     position: absolute; 
     bottom: 35px;
@@ -132,9 +132,85 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    .titulo{
-        
+    
+    h1{
+        padding: 73.42px 0 0 40px;
     }
+    
+    .titulo img{
+        display: none;
+    }
+
+    .titulo::before{
+        content: url(imagenes/logo\ tablet.png);
+    }
+
+    .caja, #mensajeFinal{
+        width: 100%;
+    }
+
+    #texto{
+        margin: 116px 0 20px 40px;
+        width: 89.58%;
+    }
+
+    .botones{
+        margin-left: 5.2%;
+        width: 89.58%;
+    }
+
+    #dosBotones{
+        width: 89.58%;
+        margin: 0 auto;
+    }
+
+    #dosBotones section{
+        margin-left: 10.2%;
+    }
+
+    .dosBotones-hijo{
+        display: block;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .lupin{
+        display: none;
+    }
+
+    #mensajeFinal{
+        height: auto;
+        width: 89.6%;
+        margin-left: 5.2%;
+    }
+
+    #mensajeFinal .ultimoBoton{
+        width: 90%;
+    }
+
+    #caja-final{
+        height: 66%;
+        width: 100%;
+        margin: 0;
+    }
+
+    div #caja-final{
+        width: 100%;
+    }
+
+    .ultimoBoton{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+
+    #copiar{
+        margin-top: 5% ;
+        position: relative;
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
 
 
@@ -158,7 +234,7 @@ footer{
     #texto{
         margin: 56px 0 0 16px;
         padding: 0;
-        width: 100%;
+        width: 92%;
         height: 299px;
     }
 
@@ -173,7 +249,7 @@ footer{
     }
 
     .boton{
-        width: 343px;
+        width: 99%;
         margin-bottom: 24px;
     }
 
@@ -191,13 +267,13 @@ footer{
 
     #caja-final{
         height: 66%;
-        width: 263px;
+        width: 100%;
         margin: 0;
     }
 
 
     div #caja-final{
-        width: 263px;
+        width: 100%;
     }
 
     .ultimoBoton{
@@ -207,7 +283,6 @@ footer{
     #copiar{
         margin-top: 5% ;
         position: relative;
-        margin-left: 13%;
     }
 }
 
