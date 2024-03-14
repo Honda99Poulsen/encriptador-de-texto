@@ -19,23 +19,26 @@
         </h1>
         <div class="caja">
             <textarea id="texto" cols="27" rows="10" placeholder="Ingrese el texto aquí" ></textarea>
-            <section class="botones">
-                <div>
+            <div class="botones">
+                <div id="dosBotones">
                     <section>
                         <img src="imagenes/bi_exclamation-circle-fill.png" alt="signo de exclamacion">
                         <p>Solo letras minusculas y sin acentos</p>
                     </section>
-                    <input class="botonEncriptar boton" onclick="encriptarTexto();" type="submit" value="Encriptar">
-                    <input class="botonDesencriptar boton" onclick="desencriptarTexto();" type="submit" value="Desencriptar">
+                    <div class="dosBotones-hijo">
+                        <input class="botonEncriptar boton" onclick="encriptarTexto();" type="submit" value="Encriptar">
+                        <input class="botonDesencriptar boton" onclick="desencriptarTexto();" type="submit" value="Desencriptar">
+                    </div>
                 </div>
-            </section>
+            </div>
         </div>
-        <div id="mensajeFinal">
+        
+            <div id="mensajeFinal">
                 <div>
                     <img class="lupin" src="imagenes/Muñeco.png" alt="mu;eco con lupa">
                 </div>
                 <div id="caja-final">
-                    <section id="caja-final">
+                    <section class="caja-final">
                         <h2 id="salidaDatos">Ningun mensaje fue encontrado</h2>
                         <p id="salidaDatosP">Ingrese el texto que desees encriptar o desencriptar.</p>
                     </section>
@@ -44,6 +47,7 @@
                     <input id="copiar" type="submit" onclick="copiarTexto();" value="Copiar" hidden disabled >
                 </div>
             </div>
+        
     </main>
     <footer>
         <p>Elias Moises Giron Zavala</p>
