@@ -9,7 +9,7 @@
 - JavaScript
 
 ## Vista Previa
-![Vista previa del encriptador de texto](imagenes/Vista Previa.png)
+![Vista previa del encriptador de texto]([imagenes/Vista Previa.png](https://github.com/Honda99Poulsen/encriptador-de-texto/blob/main/imagenes/Vista%20Previa.png?raw=true))
 
 ## Características
 - Encripta texto sustituyendo vocales por palabras clave.
